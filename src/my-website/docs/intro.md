@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 介紹
 
-Let's discover **Docusaurus in less than 5 minutes**.
+在 2026 年這個 AI 與自動化技術全面普及的時代，學習程式設計（Programming）已不再僅僅是軟體工程師的專業技能，而是一項如同「英語」或「駕駛」般的數位基礎素養。它不僅賦予我們與機器溝通的能力，更是一種重塑大腦邏輯、提升解決問題效率的現代化思維工具。
 
-## Getting Started
+以下是學習程式設計對於現代工作與日常生活的核心幫助：
 
-Get started by **creating a new site**.
+### 1. 職場轉型：從「操作者」進化為「創造者」
+在現代工作中，程式設計是提升職業天花板的加速器：
+精準駕馭 AI 工具：當所有人都在使用 AI，懂程式的人能透過 API 串接或精確的邏輯指令（Prompt Engineering），讓 AI 執行更複雜、更客制的任務，成為真正的「AI 管理者」。
+極大化辦公效率：透過簡單的腳本（如 Python），你可以將枯燥的數據處理、跨平台資料抓取或重複性的行政流程自動化，將「一天的工作量縮短為一秒鐘」。
+跨領域溝通的翻譯官：在數據驅動的決策時代，具備程式基礎能讓你與技術團隊無縫對接，精確表達需求並判斷技術可行性，大幅提升專案成功率。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 2. 日常生活：建立「運算思維」的系統化邏輯
+程式設計對日常生活的影響，更多體現在思考方式的質變：
+解決問題的結構化能力：寫程式的本質是將大問題拆解為小步驟。這種習慣能讓你日常面對複雜計畫（如理財規劃、創業構思）時，能更冷靜地找出邏輯漏洞並制定優化方案。
+生活自動化的實踐：從設定智慧家居的聯動邏輯，到撰寫小程式管理個人健康數據或追蹤特定商品價格，程式能力讓你不再受限於既有軟體的功能，能隨心所欲地打造專屬的生活工具。
+數位安全與自主性：了解軟體運作邏輯能讓你更敏銳地辨識數位風險，保護個人隱私與數位資產，在充滿資訊雜訊的世界中保持獨立判斷力。
+總結來說，學習程式設計不僅是為了掌握一種語言，更是為了在 2026 年這個高度數位化的社會中，擁有一把能自主解決問題、定義未來的萬能鑰匙。如果你準備開始，可以先從互動式平台 FreeCodeCamp 或 Coursera 的基礎課程探索起。
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

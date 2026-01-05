@@ -27,7 +27,7 @@ Yarn 或 npm
    ```   
 3. 啟動本地開發伺服器
    ```bash
-   yarn start
+   pnpm start
    ```
    
 4. 啟動後，在瀏覽器打開 http://localhost:3000 即可預覽。
@@ -35,7 +35,7 @@ Yarn 或 npm
 ### 構建靜態網站
 
 ```bash
-yarn build
+pnpm build
 ```
 
 
