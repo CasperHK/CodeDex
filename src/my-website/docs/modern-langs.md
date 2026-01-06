@@ -12,7 +12,7 @@ Python 在 2026 年依然穩坐最受歡迎語言的寶座，其 TIOBE 指數份
 核心場景： AI、機器學習、數據科學與基礎腳本開發。
 優勢： 擁有無與倫比的 AI 生態系統。在 2026 年，隨著 Mojo 等兼容語言的興起，Python 的效能限制正逐步透過與底層語言的整合得到解決。 
 
-##2. Web 與大型應用：TypeScript & JavaScript
+## 2. Web 與大型應用：TypeScript & JavaScript
 隨著大型應用的複雜化，TypeScript 已成為開發者的首選，使用率高達 69%。 
 核心場景： 前端框架（React, Next.js）、全端開發與跨平台 App。
 優勢： TypeScript 提供了強大的型別系統，能在大規模代碼協作中大幅減少錯誤。 
