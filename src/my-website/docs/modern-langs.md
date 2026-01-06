@@ -38,7 +38,7 @@ Swift： Apple 生態系（iOS/macOS）的核心語言，以現代化特性與�
 |---|---|---|
 | 人工智慧 / 數據科學 | Python, Mojo | 擁有最強大的函式庫支持 |
 | 全端 Web 開發 | TypeScript, JavaScript | 網頁開發的行業標準 |
-| 系統工程 / 安全 | Rust, C/C++ | 極致效能與記憶體安全性 |
+| 系統工程 / 安全 | Rust, Zig, C/C++ | 極致效能與記憶體安全性 |
 | 雲端架構 / 後端 | Go, Java (Spring Boot) | 高併發處理與企業級穩定性 |
 | 遊戲開發 | C#, C++ | Unity 與 Unreal 引擎的核心 |
 | 移動開發 | Kotlin, Swift | Android 與 Apple 生態的標準語言
