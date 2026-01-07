@@ -1,0 +1,8 @@
+{
+  "label": "演算法",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "演算法（Algorithm）是一組用於解決特定問題的有限步驟或規則序列，它接收輸入、經過一系列精確指令（可能包含自動決策或隨機性），最終產生一個預期輸出並停止。"
+  }
+}
