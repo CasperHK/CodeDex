@@ -38,3 +38,38 @@ sidebar_position: 1
 - **2026 年展望**：隨著 Nuxt 的 llms.txt 普及和更多訓練資料，Vue/Nuxt 的 AI 友好度會提升。但短期內，React 仍主導 AI 驅動開發。
 
 如果你有特定功能想測試（例如讓我 Vibe 一段 Nuxt 程式碼），告訴我需求，我可以試試看～
+
+---
+
+### TypeScript + SolidStart 是否是最適合 AI Coding（Vibe Coding）的組合？
+
+在 2026 年初的 AI Coding 環境下，**TypeScript + SolidStart（SolidJS 的全端框架）是極度適合的組合之一，尤其如果你追求高性能、少 bug 和乾淨的狀態管理**。但嚴格來說，它 **不是絕對的最適合**——**Next.js（React + TypeScript）仍是主流王者**，因為 LLM 訓練資料最多，生成程式碼最準確、最穩定。以下基於最新社區反饋和趨勢的理性比較。
+
+#### 為什麼 TypeScript 是 AI Coding 的必備？
+- **AI 工具（如 Claude、Cursor）在 TypeScript 上表現更好**：型別安全讓 AI 生成的程式碼更可靠，減少 hallucination（幻覺錯誤）。2025-2026 年文章指出，TypeScript 讓 AI 更容易理解結構、捕捉錯誤，特別在複雜專案中優勢放大。
+- 無論 SolidStart 還是 Next.js，都強烈推薦用 TypeScript——SolidJS 官方文件有完整 TS 支持，SolidStart 也內建優秀型別推斷。
+
+#### SolidStart 的 AI 優勢（實戰很強）
+- **語法像 React**：JSX、components、props 幾乎相同，AI（如 Claude Sonnet）生成 SolidJS 程式碼時準確率高（靠 React 訓練資料彌補）。
+- **細粒度反應式（Signals）更適合 AI 生成**：狀態管理明確、components 只跑一次，AI 生成的程式碼 bug 少、效能高（無 Virtual DOM re-render 問題）。社區實戰：
+  - 多人從 Svelte 轉 SolidJS 用於 Vibe Coding，AI 在複雜系統中表現更好。
+  - 用 Rust + SolidJS Vibe 出完整文字編輯器，過程超順。
+  - 遷移博客主題只靠 AI 完成。
+- **SolidStart 全端支援**：類似 Next.js 的 SSR、路由、streaming，2026 年被列為 Next.js 替代品之一，性能往往勝出（細粒度更新讓大表單/儀表板快 2x）。
+- **缺點**：生態較小，AI 偶爾錯用 React 心智模型（e.g. 把 Signals 當 useState），但修正容易。
+
+#### 與主流比較（2026 年 AI 友好度）
+
+| 組合                  | AI 生成準確率 | 迭代/bug 少度 | 效能 | 生態/訓練資料 | 適合情境                  | 社區反饋（2025-2026） |
+|-----------------------|---------------|---------------|------|---------------|---------------------------|-----------------------|
+| **Next.js + TS**     | ★★★★★       | ★★★☆☆       | ★★★★ | ★★★★★       | 快速原型、生产級、全端   | 主導，AI 自動選 Next.js |
+| **SolidStart + TS**  | ★★★★☆       | ★★★★★       | ★★★★★ | ★★★☆☆       | 高性能 UI、個人/複雜狀態 | Vibe 順手，「試完恨 React」 |
+| **Remix + TS**       | ★★★★☆       | ★★★★☆       | ★★★★ | ★★★☆☆       | AI-First 通用程式碼       | 理論強，實例少        |
+| **Nuxt + TS**        | ★★★☆☆       | ★★★★☆       | ★★★★ | ★★★★        | 已熟 Vue 的全端           | llms.txt 幫忙，但偶混淆 |
+
+#### 結論：非常適合，但取決於你的需求
+- **是的，如果你重視效能和乾淨程式碼**：TypeScript + SolidStart 是 2026 年 Vibe Coding 的「隱藏王牌」——生成後修正少、app 跑得快，適合個人專案、高互動 UI（如聊天、編輯器、遊戲）。
+- **但 Next.js + TS 仍是「最安全、最普及」**：AI 生成一 shot 成功率最高，生態最大，團隊/生產級首選。
+- **建議**：從小專案測試——用 Cursor/Claude Vibe 一個聊天 UI 或 Todo App，看 SolidStart vs Next.js 的修正時間。如果你已熟悉 React-like，SolidStart 上手快，TS 會讓 AI 更準。
+
+如果你想我直接 Vibe 一段 TypeScript + SolidStart 的範例（e.g. 帶 SSR 的表單），告訴需求就好～ 2026 年 Signals 框架正追上，值得試！
