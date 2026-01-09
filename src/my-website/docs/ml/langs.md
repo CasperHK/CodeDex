@@ -89,3 +89,5 @@ Mojo 在 2026 年已接近 1.0 正式版，它被設計來解決 Python 效能�
 很多頂尖公司會選擇 「Mojo 寫核心算子 + Rust 寫外層系統」 的組合來達成效能與穩定性的雙贏。
 
 
+## Resource 
+* [Top 10 AI Programming Languages to Learn in 2026](https://www.weisetech.com/top-ai-programming-languages-guide/#:~:text=Why%20Julia%20for%20AI?%20*%20High%20performance,Smooth%20compatibility%20with%20Python%20and%20C%20libraries.)
