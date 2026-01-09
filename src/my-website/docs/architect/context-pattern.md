@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-## 上下文模式
+# 上下文模式
 這個「The Context Pattern」（上下文模式）其實是一個帶有幽默和諷刺味道的程式設計概念，來自一位有豐富函數式程式語言經驗的開發者（用了8年Haskell、2年OCaml、2.5年C++，然後只用了45分鐘Go就「頓悟」了）。
 核心想法是什麼？
 它就是：创建一个單一的記錄（record，或稱struct）來存放所有的依賴（dependencies），然後明確地（explicitly）把這個記錄傳遞給每一個函數。
